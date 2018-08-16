@@ -19,14 +19,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qbg-QY-WsZ">
-                                <rect key="frame" x="27" y="173" width="320" height="320"/>
+                                <rect key="frame" x="27" y="20" width="320" height="647"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="qbg-QY-WsZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="9p1-QY-5R1"/>
-                            <constraint firstItem="qbg-QY-WsZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="153" id="QMC-gG-jdX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qbg-QY-WsZ" secondAttribute="bottom" constant="174" id="avc-Mb-O8k"/>
+                            <constraint firstItem="qbg-QY-WsZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QMC-gG-jdX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qbg-QY-WsZ" secondAttribute="bottom" id="avc-Mb-O8k"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qbg-QY-WsZ" secondAttribute="trailing" constant="28" id="rrT-1F-OyN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
